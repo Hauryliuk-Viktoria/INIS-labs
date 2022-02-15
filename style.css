@@ -78,3 +78,59 @@ footer ul li a{
     font: 500 14px/100% 'Open Sans', sans-serif;
 }
 
+
+
+/*         МАЙКИ         МАЙКИ           МАЙКИ         */
+
+
+
+.t-shirts{
+    max-width: 80%;
+    margin: 0 auto;
+}
+.t-shirts h3{
+    font: 300 42px/100% 'Open Sans', sans-serif;
+    color: rgb(10, 10, 90);
+    padding-top: 15px;
+}
+.t-shirts_blocks{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+.t-shirts_block{
+    max-width: 305px;
+    border: solid 2px rgb(10, 10, 90);
+    border-radius: 15px;
+    margin: 15px 0;
+}
+.t-shirts_block img{
+    width: 300px;
+    border-radius: 15px;
+}
+.t-shirts_title{
+    font: 300 26px/100% 'Open Sans', sans-serif;
+    color: rgb(10, 10, 90);
+    padding: 10px 0;
+    margin-left: 10px;
+}
+.t-shirts_text{
+    font: 12px/100% 'Open Sans', sans-serif;
+    color: rgb(10, 10, 90);
+    padding:0 0 10px 10px;
+} 
+.buttons-block{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto 10px;
+}
+.t-shirts_block button{
+    font: 16px/100% 'Open Sans', sans-serif;
+    color: #fff;
+    padding: 5px;
+    background-color: rgb(10, 10, 90);
+    border-radius: 5px;
+}
