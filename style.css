@@ -50,6 +50,7 @@ nav ul li a{
     padding: 15px 30px;
     border: solid 2px rgb(10, 10, 90);
     border-radius: 10px;
+    margin-bottom: 10px;
 }
 .text-block h3{
     text-align: center;
@@ -62,7 +63,7 @@ nav ul li a{
 }
 footer{
     background-color: rgb(10, 10, 90);
-    margin-top: 10px;
+   
 }
 
 footer ul{
@@ -133,4 +134,116 @@ footer ul li a{
     padding: 5px;
     background-color: rgb(10, 10, 90);
     border-radius: 5px;
+}
+.quickview_block{
+    background-color: rgba(10, 10, 90, 0.507);
+}
+.quickview{
+    max-width: 80%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0 auto;
+    padding: 10px 0;
+}
+.quickview img{
+    width: 150px;
+}
+.quickview_text-block{
+    margin-left: 10px;
+}
+.quickview_name{
+    font: 26px/100% 'Open Sans', sans-serif;
+    color: rgb(10, 10, 90);
+    padding-bottom: 5px;
+}
+.quickview_price{
+    font: 20px/100% 'Open Sans', sans-serif;
+    color: rgb(10, 10, 90);
+    padding-bottom: 35px;
+}
+.quickview_text-block button{
+    font: 16px/100% 'Open Sans', sans-serif;
+    color: #fff;
+    padding: 5px;
+    background-color: rgb(10, 10, 90);
+    border-radius: 5px;
+}
+.quickview_block{
+    display: none;
+}
+/* .car-button .quickview_block{
+    display: block;
+} */
+
+/*    detailes   detailes   detailes  */
+.product{
+    max-width: 80%;
+    margin: 0 auto;
+}
+.product h3{
+    font: 300 26px/100% 'Open Sans', sans-serif;
+    color: rgb(10, 10, 90);
+    padding: 10px 0;
+    margin: 20px 0 10px;
+}
+.product_main-block{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 30px;
+}
+.product_main-block img{
+    width: 300px;
+}
+.detailes{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+.detailes_price{
+    font: 600 26px/100% 'Open Sans', sans-serif;
+    color: rgb(10, 10, 90);
+    padding: 10px 0;
+}
+.detailes_text{
+    font: 600 14px/100% 'Open Sans', sans-serif;
+    color: rgb(10, 10, 90);
+    padding: 10px 0;
+}
+.side-buttons{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font: 300 16px/100% 'Open Sans', sans-serif;
+}
+.side-buttons div{
+    color: gray;
+    padding-right: 5px;
+}
+.side-buttons button{
+    color: #fff;
+    background-color: rgb(10, 10, 90);
+    border: 3px solid rgb(10, 10, 90);
+    border-radius: 5px;
+    padding: 2px;
+    margin-right: 5px;
+}
+.color-buttons{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 5px;
+    font: 300 16px/100% 'Open Sans', sans-serif;
+}
+.color-buttons div{
+    color: gray;
+    padding-right: 5px;
+}
+.color-buttons button{
+    color: #fff;
+    background-color: rgb(10, 10, 90);
+    border: 3px solid rgb(10, 10, 90);
+    border-radius: 5px;
+    padding: 2px;
+    margin-right: 5px;
 }

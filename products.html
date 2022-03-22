@@ -7,9 +7,11 @@
     <link href="https://fonts.googleapis.com/css2?family=Catamaran:wght@200;500&family=Open+Sans&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="style.css">
     <link rel="stylesheet" type="text/css" href="null.css">
-  </head>
-<body onload="initProducts()">
   <script src="main.js"></script>
+  <script src="shirts.js"></script>
+</head>
+<body onload="initProducts()">
+
   <div class="wrapper">
     <header>
       <div class="blue_line"></div>
@@ -31,44 +33,19 @@
     <div class="t-shirts">
       <h3>Our T-Shirts</h3>
       <div class="t-shirts_blocks">
-        <div class="t-shirts_block">
-          <img src="shirt_images/beepboop-white-front.png" alt="">
-          <h4 class="t-shirts_title">Beep Boop</h4>
-          <p class="t-shirts_text">Available in 4 colors</p>
-          <div class="buttons-block"> 
-            <button>Quick View</button>
-            <button>See Page</button>
-          </div>
-        </div>
-        <div class="t-shirts_block">
-          <img src="shirt_images/car-white-front.png" alt="">
-          <h4 class="t-shirts_title">Car</h4>
-          <p class="t-shirts_text">Available in 5 colors</p>
-          <div class="buttons-block"> 
-            <button>Quick View</button>
-            <button>See Page</button>
-          </div>
-        </div>
-        <div class="t-shirts_block">
-          <img src="shirt_images/plaid-white-front.png" alt="">
-          <h4 class="t-shirts_title">Forever Plaid</h4>
-          <p class="t-shirts_text">Available in 2 colors</p>
-          <div class="buttons-block"> 
-            <button>Quick View</button>
-            <button>See Page</button>
-          </div>
-        </div>
-        <div class="t-shirts_block">
-          <img src="shirt_images/bsuir-white-front.png" alt="">
-          <h4 class="t-shirts_title">BSUIR</h4>
-          <p class="t-shirts_text">Available in 1 colors</p>
-          <div class="buttons-block"> 
-            <button>Quick View</button>
-            <button>See Page</button>
-          </div>
-        </div>
       </div>
     </div>
+    <div class="quickview_block">
+      <div class="quickview">
+        <img src="shirt_images/car-white-front.png" alt="" class="front">
+        <img src="shirt_images/car-white-back.png" alt="" class="front">
+        <div class="quickview_text-block">
+          <h4 class="quickview_name">Car</h4>
+          <p class="quickview_price">$10.99</p>
+          <button>Close</button>
+        </div>
+      </div>
+    </div>    
     <footer>
       <ul>
         <li><a href="not_implemented.html">Contact Us</a></li>
@@ -81,3 +58,4 @@
   </div>  
 </body>
 </html>
+
