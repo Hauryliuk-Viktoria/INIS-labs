@@ -128,7 +128,7 @@ footer ul li a{
     align-items: center;
     margin: 0 auto 10px;
 }
-.t-shirts_block button{
+.t-shirts_block a{
     font: 16px/100% 'Open Sans', sans-serif;
     color: #fff;
     padding: 5px;
@@ -195,10 +195,21 @@ footer ul li a{
 .product_main-block img{
     width: 300px;
 }
+.details-grid{
+    max-width: 90%;
+    margin: 0 auto;    
+}
+.details-grid-item{
+    display: flex;
+    flex-direction: row;
+}
 .detailes{
     display: flex;
     flex-direction: column;
     margin-left: 20px;
+}
+.details-grid h3{
+    font: 300 42px/100% 'Open Sans', sans-serif;
 }
 .detailes_price{
     font: 600 26px/100% 'Open Sans', sans-serif;
@@ -210,17 +221,17 @@ footer ul li a{
     color: rgb(10, 10, 90);
     padding: 10px 0;
 }
-.side-buttons{
+.items{
     display: flex;
     flex-direction: row;
     align-items: center;
     font: 300 16px/100% 'Open Sans', sans-serif;
 }
-.side-buttons div{
+.items p{
     color: gray;
     padding-right: 5px;
 }
-.side-buttons button{
+.items:first-child a{
     color: #fff;
     background-color: rgb(10, 10, 90);
     border: 3px solid rgb(10, 10, 90);
@@ -228,20 +239,19 @@ footer ul li a{
     padding: 2px;
     margin-right: 5px;
 }
-.color-buttons{
+.items{
     display: flex;
     flex-direction: row;
     align-items: center;
     margin-top: 5px;
     font: 300 16px/100% 'Open Sans', sans-serif;
 }
-.color-buttons div{
+.items p{
     color: gray;
     padding-right: 5px;
 }
-.color-buttons button{
-    color: #fff;
-    background-color: rgb(10, 10, 90);
+.items a{
+    color: rgb(10, 10, 90);
     border: 3px solid rgb(10, 10, 90);
     border-radius: 5px;
     padding: 2px;
